@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./waves-haikei-3.svg);
+    /* background: #f6f7fc; */
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    max-width: 430px;
+    background: linear-gradient(315deg, #6B48FF, #04009A);
+    /* background: linear-gradient(315deg, #04009A, #6B48FF); */
+    margin-top: 5%;
+    padding: 40px;
+    /* box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.55) ; */
+      box-shadow: 0 0 50px 0 rgba(241, 238, 238, 0.678) ;
+    border-radius: 50px;
+}
+.content{
+    float: right;
+    padding: 2px;
+    width: 25px;
+    background: #005792;
+    position: absolute;
+    margin: 8px 0 0 440px;
+    text-align: center;
+    transition: 025s ease-in-out;
+}
+.content a{
+    font-size: 24px;
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    padding: 5px;  
+}
+.content a:hover{
+    color: #fff;
+    background: #3EDBF0;
+    transition: 0.25s ease-in-out;
+}
+a.active{
+    color: #A239EA;
+    background: #fff;
+}
+#small{
+     font-size: 10px;
+}
+#medium{
+    font-size: 14px;
+}
+#large{
+    font-size: 18px;
+}
+#max{
+    font-size: 24px;
+}
+h1,h2,p{
+    color: #fff;
+}
+h1{
+    font-size: 36px ;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 24px ;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 14px ;
+     line-height: 20px;
+}
